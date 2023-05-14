@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "f5b1a1a6-93fc-426e-baf5-b9a219395033",
+		"name": "api prisma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14949137",
+		"_collection_link": "https://restless-meteor-370486.postman.co/workspace/cca6c5f4-f2cf-4ee4-8b2e-bc86842f63b0/collection/14949137-f5b1a1a6-93fc-426e-baf5-b9a219395033?action=share&creator=14949137&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "get forums list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{rootAPI}}/",
+					"host": [
+						"{{rootAPI}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "rootAPI",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	]
+}
